@@ -1,0 +1,17 @@
+.social{
+    display: flex;
+    background-color: #000e24;
+    font-family: 'Chivo', sans-serif;
+}
+.header__nav{
+    display: flex;
+}
+.header__menu{
+ font-family: 'Chivo', sans-serif;
+}
+.header__title{
+    font-family: 'Dosis', sans-serif;
+}
+.header__text{
+    font-family: 'Chivo', sans-serif;
+}
