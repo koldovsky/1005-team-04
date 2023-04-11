@@ -1,4 +1,8 @@
 
+/* .destinations { */
+    /* background-image: url(images/directions-background.jpg) */
+/* } */
+
 .destinations__title {
     font-family: 'Dosis', sans-serif;
     font-size: 50px;
@@ -27,6 +31,10 @@
     text-align: start;
     color: #ff5b00;
    }  
+
+   .box-item-link :hover {
+    color: #ffffff;
+   } 
 
    .destinations__button {
     font-family: 'Chivo', sans-serif;
