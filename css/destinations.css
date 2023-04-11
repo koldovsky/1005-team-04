@@ -1,0 +1,28 @@
+
+.destinations__title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+}
+
+.box-item-name {
+    font-family: 'Dosis', sans-serif;
+    font-size: 26px;
+}
+
+.box-item-text {
+    font-family: 'Chivo', sans-serif;
+    font-size: 16px;
+    color: #4886ae;
+   }
+
+   .box-item-link {
+    font-family: 'Chivo', sans-serif;
+    font-size: 11px;
+    color: #ff5b00;
+   }  
+
+   .destinations__button {
+    font-family: 'Chivo', sans-serif;
+    font-size: 11px;
+    color: #ffffff;
+   }  
