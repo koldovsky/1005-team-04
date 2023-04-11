@@ -1,6 +1,7 @@
 
 .destinations {
     background-image: url(../images/directions-background.jpg);
+    background-size: cover;
 }
 
 .destinations__title {
@@ -32,7 +33,7 @@
     color: #ff5b00;
    }  
 
-   a.destinations__box-item:hover {
+   .destinations__box-item a:hover {
     color: #ffffff;
    } 
 
