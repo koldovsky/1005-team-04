@@ -1,7 +1,7 @@
 
-/* .destinations { */
-    /* background-image: url(images/directions-background.jpg) */
-/* } */
+.destinations {
+    background-image: url(../images/directions-background.jpg);
+}
 
 .destinations__title {
     font-family: 'Dosis', sans-serif;
@@ -32,7 +32,7 @@
     color: #ff5b00;
    }  
 
-   .box-item-link :hover {
+   a.destinations__box-item:hover {
     color: #ffffff;
    } 
 
