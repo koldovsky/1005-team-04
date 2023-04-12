@@ -22,7 +22,7 @@ img {
     width: 100%;
 }
 
-/* style icon for all sections */
+/* Стилізує іконку з маскою, яка розділяє блоки сайту, додав у всі блоки її клас */
 
 .diving-icon {
     display: block;

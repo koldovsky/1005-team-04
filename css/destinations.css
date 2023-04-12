@@ -10,20 +10,20 @@
     font-family: 'Dosis', sans-serif;
     font-size: 50px;
     text-align: center;
-    color: var(----main-color);
+    color: var(--main-color);
 }
 
 .box-item-name {
     font-family: 'Dosis', sans-serif;
     font-size: 26px;
     text-align: start;
-    color: white;
+    color: var(--main-color);
 }
 
 .box-item-text {
     font-family: 'Chivo', sans-serif;
     font-size: 16px;
-    color: #4886ae;
+    color: var(--text-color);
     text-align: start;
     
    }
@@ -32,15 +32,16 @@
     font-family: 'Chivo', sans-serif;
     font-size: 11px;
     text-align: start;
-    color: #ff5b00;
+    color: var(--accent-color);
+    text-decoration: none;  /* не підкреслює лінки*/
    }  
 
    .destinations__box-item a:hover {
-    color: #ffffff;
+    color: var(--main-color);
    } 
 
    .destinations__button {
     font-family: 'Chivo', sans-serif;
     font-size: 11px;
-    color: #ffffff;
+    color: var(--main-color);
    }  
