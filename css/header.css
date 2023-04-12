@@ -1,17 +1,119 @@
-.social{
-    display: flex;
-    background-color: #000e24;
-    font-family: 'Chivo', sans-serif;
+.header {
+    background-image: url(../images/header-ocean.jpg);
+    min-height: 850px;
 }
-.header__nav{
+
+.header__nav {
     display: flex;
 }
+
+.header__logo-container {
+    padding: 20px 24px;
+}
+
 .header__menu{
- font-family: 'Chivo', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
 }
-.header__title{
-    font-family: 'Dosis', sans-serif;
-}
-.header__text{
+
+.header__menu-item {
+    color: var(--main-color);
     font-family: 'Chivo', sans-serif;
+    font-size: 14px;
+    margin: 30px 0px;
+    text-decoration: none;
 }
+
+.header__menu-item-button-top {
+    box-sizing: border-box;
+    background-color: var(--accent-color);
+    border-radius: 2.5em;
+    font-size: 11px;
+    font-family: 'Chivo', sans-serif;
+    padding: 15px 15px;
+    margin: 20px;
+    color: var(--main-color);
+    text-align: center;
+    text-decoration: none;
+}
+
+.header__banner {
+    box-sizing: border-box;
+}
+
+
+.header__block-text {
+    margin: 50px 0px 0px;
+    padding: 0px 15px;
+}
+
+.header__title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 111px;
+    font-weight: 700;
+    color: var(--main-color);
+    padding: 15px;
+    text-align: center;
+    text-transform: none;
+    vertical-align: baseline;
+}
+
+.header__text {
+    font-family: 'Chivo', sans-serif;
+    font-size: 20px;
+    color: var(--main-color);
+    padding-top: 10px;
+    text-align: center;
+    text-transform: none;
+}
+
+.header_button {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.header__banner_button {
+    box-sizing: border-box;
+    background-color: var(--accent-color);
+    border-radius: 2.5em;
+    font-size: 12px;
+    font-family: 'Chivo', sans-serif;
+    padding: 15px 25px;
+    color: var(--main-color);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@media (min-width: 950px) {
+    /* .header__social {
+        display: block;
+        background-color: var(--header-color);
+        font-family: 'Chivo', sans-serif;
+    } */
+
+    .header__title {
+        padding: 200px 0px 20px 0px;
+    }
+
+    .header__text {
+        padding: 20px;
+    }
+
+    .header_button {
+        padding-top: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+/* .header__social, .social__logo {
+    display: none;
+}  */
