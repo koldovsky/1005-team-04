@@ -1,0 +1,44 @@
+
+.destinations {
+    background-image: url(../images/directions-background.jpg);
+    background-size: cover;
+}
+
+.destinations__title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.box-item-name {
+    font-family: 'Dosis', sans-serif;
+    font-size: 26px;
+    text-align: start;
+    color: white;
+}
+
+.box-item-text {
+    font-family: 'Chivo', sans-serif;
+    font-size: 16px;
+    color: #4886ae;
+    text-align: start;
+    
+   }
+
+   .box-item-link {
+    font-family: 'Chivo', sans-serif;
+    font-size: 11px;
+    text-align: start;
+    color: #ff5b00;
+   }  
+
+   .destinations__box-item a:hover {
+    color: #ffffff;
+   } 
+
+   .destinations__button {
+    font-family: 'Chivo', sans-serif;
+    font-size: 11px;
+    color: #ffffff;
+   }  
