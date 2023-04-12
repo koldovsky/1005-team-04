@@ -1,19 +1,17 @@
-
-
-body{
+.under-sea__header{
+  text-align: ;
   background-color:#000e24 ;
   font-family: 'Dosis', sans-serif;
-  display: flex;
-  
+display: flow-root;
 }
 
 .under-sea__header{
-
-  text-align: center;
+text-align: center;
+ 
   
 }
 .under-sea__logo{
-  text-align: center;
+
 }
 .img__logo{
   height: 67px;
@@ -51,7 +49,7 @@ margin-bottom: 50px;
  
 
 }
-.title__diving-title{
+.diving__title{
   color: white;
   font-size: 26px;
   font-style: normal;
@@ -72,5 +70,7 @@ a.button{
   background: none;
   color:white ;
   background-color: #FF5B00;
+
   border-radius: 50em;
+
 }
