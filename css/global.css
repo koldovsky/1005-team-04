@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');  /*font-family: 'Dosis', sans-serif;*/
-@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=Dosis:wght@700&display=swap');  /*font-family: 'Chivo', sans-serif;*/
-*{
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+/*font-family: 'Dosis', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=Dosis:wght@700&display=swap');
+
+/*font-family: 'Chivo', sans-serif;*/
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-:root{
+
+:root {
     --main-color: white;
     --text-color: #4886ae;
     --accent-color: #ff5b00;
@@ -16,4 +20,14 @@
 img {
     display: block;
     width: 100%;
+}
+
+/* style icon for all sections */
+
+.diving-icon {
+    display: block;
+    height: 100%;
+    max-width: 100%;
+    margin: auto;
+    width: 70px;
 }

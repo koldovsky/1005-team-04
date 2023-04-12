@@ -2,13 +2,15 @@
 .destinations {
     background-image: url(../images/directions-background.jpg);
     background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 
 .destinations__title {
     font-family: 'Dosis', sans-serif;
     font-size: 50px;
     text-align: center;
-    color: white;
+    color: var(----main-color);
 }
 
 .box-item-name {
