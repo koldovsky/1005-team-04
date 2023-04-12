@@ -6,5 +6,14 @@
     box-sizing: border-box;
 }
 :root{
+    --main-color: white;
+    --text-color: #4886ae;
+    --accent-color: #ff5b00;
     scroll-behavior: smooth;
+    font-family: 'Dosis', sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
 }
