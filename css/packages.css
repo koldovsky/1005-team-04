@@ -14,10 +14,9 @@
 
 .packages__title-text {
     font-family: 'Dosis', sans-serif;
-    font-size: 34px;
+    font-size: 26px;
     text-align: center;
-    
-    color: var(--main-color);
+    color: var(--text-color);
 }
 
 .box-item-name {
@@ -25,4 +24,11 @@
     font-size: 26px;
     text-align: start;
     color: var(--main-color);
+}
+
+.box-item-text {
+    font-family: 'Chivo', sans-serif;
+    font-size: 16px;
+    text-align: start;
+    color: var(--text-color);
 }
