@@ -4,3 +4,17 @@
     padding-top: 40px;
     padding-bottom: 50px;
 }
+
+.packages__title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    color: var(--main-color);
+}
+
+.box-item-name {
+    font-family: 'Dosis', sans-serif;
+    font-size: 26px;
+    text-align: start;
+    color: var(--main-color);
+}
