@@ -38,6 +38,7 @@
 
    .destinations__box-item a:hover {
     color: var(--main-color);
+    text-decoration: underline;
    } 
 
    .destinations__button {
