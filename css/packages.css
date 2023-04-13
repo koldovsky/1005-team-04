@@ -7,8 +7,16 @@
 
 .packages__title {
     font-family: 'Dosis', sans-serif;
-    font-size: 26px;
+    font-size: 50px;
     text-align: center;
+    color: var(--main-color);
+}
+
+.packages__title-text {
+    font-family: 'Dosis', sans-serif;
+    font-size: 34px;
+    text-align: center;
+    
     color: var(--main-color);
 }
 
