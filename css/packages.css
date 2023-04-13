@@ -9,13 +9,17 @@
     font-family: 'Dosis', sans-serif;
     font-size: 50px;
     text-align: center;
+    margin-top: 20px;
     color: var(--main-color);
 }
 
 .packages__title-text {
     font-family: 'Dosis', sans-serif;
     font-size: 26px;
+    font-weight: lighter ;
     text-align: center;
+    vertical-align: baseline;
+    margin-top: 25px;
     color: var(--text-color);
 }
 
