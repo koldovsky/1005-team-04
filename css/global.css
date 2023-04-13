@@ -15,7 +15,7 @@
     --accent-color: #ff5b00;
     --header-color: #000e24;
     --box-background: rgba(18, 36, 58, 0.8);
-    /* --block-background: #000e24; */
+    --block-background: #000e24;
 
     scroll-behavior: smooth;
     font-family: 'Dosis', sans-serif;
