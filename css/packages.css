@@ -14,10 +14,13 @@
 }
 
 .packages__title-text {
-    font-family: 'Dosis', sans-serif;
-    font-size: 26px;
-    font-weight: lighter ;
+    font-family: 'Chivo', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
     text-align: center;
+    text-transform: none;
     vertical-align: baseline;
     margin-top: 25px;
     color: var(--text-color);
