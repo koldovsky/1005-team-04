@@ -25,6 +25,9 @@
 .section__header{
   text-align: center;
 }
+.header__title{
+  padding-top: 20px;
+}
 img { 
      
      width: 100%; 
