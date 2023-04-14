@@ -1,22 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
-/*font-family: 'Dosis', sans-serif;*/
-@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=Dosis:wght@700&display=swap');
 
-* {
-
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
-}
-:root {
-  --main-color: white;
-  --text-color: #4886ae;
-  --accent-color: #ff5b00;
-  --header-color: #000e24;
-  scroll-behavior: smooth;
-  font-family: 'Dosis', sans-serif;
-}
 .under-sea__world{
   background-color:var(--header-color) ;
   height: 100%;
