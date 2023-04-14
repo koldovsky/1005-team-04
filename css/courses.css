@@ -1,0 +1,86 @@
+img {
+    display: block;
+    max-width: 100%;
+}
+/* external container - for relation to other sections*/
+.courses {
+    background-image: url(../images/courses_background.jpg);
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* all data - paddings */
+.courses_place {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+/*inner container for image and text: 4ieces*/
+.courses_item {
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* main text h2 */
+.courses__title {
+    color: var(--main-color);
+    text-align: center;
+    font-size: 50px;
+}
+/* block h3 text */
+.box-item__name {
+    color: var(--main-color);
+    text-align: left;
+    font-size: 22px;
+}
+/* block for text */
+.box-item__info {
+    background-color: rgb(6, 30, 59); /*temporary*/
+    padding: 31px 27px;
+}
+/*text information*/
+.box-item__text {
+    color: var(--text-color);
+    text-align: left;
+    font-size: 16px;
+    margin-top: 20px;
+}
+/*two columns if width more than 768*/
+@media (min-width: 768px) {
+    .courses_place {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .courses__box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .box-item__name {
+        font-size: 24px;
+    }
+    .box-item__info {
+        padding: 34px 28px 34px 28px;
+    }
+}
+/*put text ot the right if width more than 992*/
+@media (min-width: 992px) {
+    .courses_place {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .box-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows:auto;
+    }
+    .box-item__name {
+        font-size: 26px;
+    }
+    .box-item__info {
+        padding: 40px 30px 40px 30px;
+    }
+    .box-item__image {
+        
+        height: 100%;
+        width: 100%;
+    }
+}
