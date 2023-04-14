@@ -19,6 +19,15 @@
 
     scroll-behavior: smooth;
     font-family: 'Dosis', sans-serif;
+    background-color: var(--block-background);
+}
+
+p{
+    color: var(--text-color);
+}
+
+h1, h2, h3{
+    color: var(--main-color);
 }
 
 /* img { */
