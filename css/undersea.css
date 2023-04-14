@@ -40,9 +40,7 @@ img {
   margin: auto;
   width: 70px;
 }
-.p__title{
 
-}
 .span__title{
   
   display: block;
@@ -65,7 +63,7 @@ img {
   max-height: 316px;
 }
 
-}
+
 .diving__img{
   margin: auto;
   width: 570.4px;
@@ -82,7 +80,7 @@ img {
 }
 .picture__content{
  padding: 10px;
-flex-;
+
  color: var(--text-color);
 width: 570px;
 }
