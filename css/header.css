@@ -3,10 +3,10 @@
     min-height: 850px;
 }
 
-/* .header__social,
+.header__social,
 .social__logo {
     display: none;
-}  */
+}
 
 .header__nav {
     display: grid;
@@ -14,7 +14,7 @@
 }
 
 .header__logo-container {
-    padding: 20px 54px;
+    padding: 20px 24px;
 }
 
 .logo-container {
@@ -49,7 +49,6 @@
 .header__banner {
     box-sizing: border-box;
 }
-
 
 .header__block-text {
     margin: 50px 0px 0px;
@@ -111,11 +110,12 @@
 
     .social__logo {
         display: flex;
-        justify-content: space-around;
-        padding: 0 auto;
+        gap: 20px;
+        padding-left: 700px;
     }
 
     .social__logo-container {
+        display: flex;
         height: 30px;
         width: 30px;
     }
