@@ -1,3 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+/*font-family: 'Dosis', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=Dosis:wght@700&display=swap');
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+:root {
+  --main-color: white;
+  --text-color: #4886ae;
+  --accent-color: #ff5b00;
+  --header-color: #000e24;
+  scroll-behavior: smooth;
+  font-family: 'Dosis', sans-serif;
+}
+.under-sea__world{
+  background-color:var(--header-color) ;
+  height: 100%;
+
+}
+.section__header{
+  text-align: center;
+}
+img { 
+     
+     width: 100%; 
+    }
+
+
+/* Стилізує іконку з маскою, яка розділяє блоки сайту, додав у всі блоки її клас */
+
+.img__logo {
+  display: block;
+  height: 100%;
+  max-width: 100%;
+  margin: auto;
+  width: 70px;
+}
+.p__title{
+
+}
+.span__title{
+  
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  letter-spacing: -1.05px;
+}
+
+
+.body__content{
+  text-align: center;
+  padding: 15px;
+
+}
+
+ 
+.pictures{
+  max-width: 570px;
+  max-height: 316px;
+}
+
+}
+.diving__img{
+  margin: auto;
+  width: 570.4px;
+  height: 394.6px;
+  margin: auto;
+  
+}
+.picture__text{
+
+  padding-top: 10px;
+  color: white;
+  font-size:26px ;
+
+}
+.picture__content{
+ padding: 10px;
+flex-;
+ color: var(--text-color);
+width: 570px;
+}
+.content__picture-diving{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 5px;
+  
+}
 .content__picture-diving{
   display: flex;
   flex-direction: row;
