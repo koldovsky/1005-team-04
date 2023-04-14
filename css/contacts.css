@@ -1,0 +1,60 @@
+.contacts {
+    background-image: url(../images/contacts-background.jpg);
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.contacts__title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    text-align: left;
+    color: var(--main-color);
+}
+
+.contacts__box-text {
+    font-family: 'Chivo', sans-serif;
+    font-size: 20px;
+    color: var(--text-color);
+    text-align: start;
+}
+.contacts__item-title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 26px;
+    text-align: start;
+    color: var(--text-color);
+}
+
+.contacts__item-text {
+    font-family: 'Chivo', sans-serif;
+    font-size: 16px;
+    color: var(--main-color);
+    text-align: start;
+}
+
+.contacts__item a {
+    text-decoration: none;
+}
+.contacts__form-name {
+    font-family: 'Chivo', sans-serif;
+    font-size: 11px;
+    color: var(--main-color);
+    text-align: start;
+}
+
+.contacts__form {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--block-background);
+    
+}
+
+.contacts__form-button {
+    background-color: var(--accent-color);
+    color: var(--main-color);
+}
+
+.contacts__form-button:hover {
+    background-color: var(--text-color);
+    }

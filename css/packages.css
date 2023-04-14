@@ -1,0 +1,41 @@
+.packages {
+    background-image: url(../images/background-packages.jpg);
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.packages__title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--main-color);
+}
+
+.packages__title-text {
+    font-family: 'Chivo', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    text-align: center;
+    text-transform: none;
+    vertical-align: baseline;
+    margin-top: 25px;
+    color: var(--text-color);
+}
+
+.box-item-name {
+    font-family: 'Dosis', sans-serif;
+    font-size: 26px;
+    text-align: start;
+    color: var(--main-color);
+}
+
+.box-item-text {
+    font-family: 'Chivo', sans-serif;
+    font-size: 16px;
+    text-align: start;
+    color: var(--text-color);
+}
