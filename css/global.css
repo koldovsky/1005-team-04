@@ -30,10 +30,10 @@ h1, h2, h3{
     color: var(--main-color);
 }
 
-/* img { */
-    /* display: block; */
-    /* width: 100%; */
-/* } */
+img {
+    display: block;
+    width: 100%;
+}
 
 /* Стилізує іконку з маскою, яка розділяє блоки сайту, додав у всі блоки її клас */
 
@@ -42,5 +42,5 @@ h1, h2, h3{
     height: 100%;
     max-width: 100%;
     margin: auto;
-    width: 70px;
+    width: 50px;
 }
