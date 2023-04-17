@@ -1,76 +1,92 @@
-.under-sea__header{
-  text-align: ;
-  background-color:#000e24 ;
-  font-family: 'Dosis', sans-serif;
-display: flow-root;
-}
+.under-sea__world{
+  background-color:var(--header-color) ;
+  height: 100%;
 
-.under-sea__header{
-text-align: center;
- 
-  
 }
-.under-sea__logo{
+.section__header{
   text-align: center;
 }
-.img__logo{
-  height: 67px;
+.header__title{
+  padding-top: 20px;
+}
+#pictures { 
+     
+     width: 100%; 
+    }
+
+.img__logo {
+  display: block;
+  height: 100%;
+  max-width: 100%;
+  margin: auto;
   width: 70px;
 }
-.under-sea__title{
+.span__title{
+  display: block;
   text-align: center;
+  font-size: 50px;
   color: white;
-  font-weight: 700;
-  vertical-align: baseline;
-  font-size: 34px;
+  letter-spacing: -1.05px;
 }
-.under-sea__pictures{
- text-align:center;
-  display: inline-flex;
-  margin-top:15px;
-  
-  
+.body__content{
+  text-align: center;
+  padding: 15px;
 }
-
-img.pictures{
-  width: 570px;
-  height:316.975px;
-  flex-direction: column;
+.diving__img{
+ text-align: center; 
 }
-.pictures_divers{
-  margin-left: 30px;
+.pictures{
+  max-width: 570px;
+  max-height: 316px;
 }
-.content__diving-school{
-  color: rgb(72, 134,174);
-  font-size: 16px;
-  font-family: 'Chivo', sans-serif;
-margin-bottom: 50px;
-
- 
+.picture__text{
+  padding-top: 10px;
+  color: white;
+  font-size:26px ;
 
 }
-.diving__title{
-  color: white;
-  font-size: 26px;
-  font-style: normal;
+.picture__content{
+ padding: 10px;
+ color: var(--text-color);
+ text-align: center;
 }
-a.button{
-  box-sizing: border-box;
-  color: white;
- border: 1px solid;
- padding:1em 2em ;
- font-size:1em ;
- border-radius: 2.5em;
- font-size: 1em;
- text-decoration: none;
- border-color: rgb(72, 134,174);
- margin-bottom: 20px;
+.content__picture-diving{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top:auto;
+}
+.content__picture-diving{
+  display: flex;
+  flex-direction: row;
+}
+.pictures__box{
+  margin-top: 50px;
+  margin-right: 25px;
+}
+#picture__ocean{
+  max-width: 379.37px;
 }
 .button:hover{
   background: none;
   color:white ;
-  background-color: #FF5B00;
+  background-color: #FF5B00;}
 
-  border-radius: 50em;
-
+.button{
+  color: white;
+ border: 1px solid;
+ padding:1em 2em ;
+ border-radius: 2.5em;
+ font-size: 1em;
+ text-decoration: none;
+ border-color: rgb(72, 134,174);
 }
+.content__picture-ocean{
+  margin: auto;
+  margin-left:0px;
+}
+.btn{margin: 40px;}
+@media only screen and (max-width: 768px) { 
+  .content__picture-diving{
+    flex-direction: column;
+  }
+} 

@@ -1,0 +1,111 @@
+.contacts {
+    background-image: url(../images/contacts-background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 1.5; /* збільшення міжрядкового інтервалу */
+    max-width: 100%; /* ширина блока по ширині вікна */
+    padding: 20px 40px 50px 40px;
+  }
+  
+  .diving-icon-left {
+    width: 50px;
+    margin-left: 0;
+  }
+  .contacts__title {
+    font-family: "Dosis", sans-serif;
+    font-size: 38px;
+    text-align: left;
+    color: var(--main-color);
+    margin: 20px 0px;
+  }
+  
+  .contacts__box-text {
+    font-family: "Chivo", sans-serif;
+    font-size: 20px;
+    color: var(--text-color);
+    padding-bottom: 20px;
+    
+  }
+  .contacts__item-title {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    text-align: start;
+    color: var(--text-color);
+    
+  }
+  
+  .contacts__item-text {
+    font-family: "Chivo", sans-serif;
+    font-size: 16px;
+    color: var(--main-color);
+    text-align: start;
+    margin-bottom: 15px;
+  }
+  
+  .contacts__item a {
+    text-decoration: none;
+  }
+  
+  .contacts__item a:hover {
+    color: var(--accent-color);
+  }
+  
+  
+  .contacts__form-name,
+  .contacts__form-phone,
+  .contacts__form-email {
+    font-family: "Chivo", sans-serif;
+    font-size: 11px;
+    color: var(--main-color);
+    text-align: start;
+  }
+  
+  .contacts__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--box-background);
+    width: 100%; /* ширина блока по ширині вікна */
+    height: 340px;
+    padding-top: 50px;
+    margin-top: 50px;
+  }
+  
+  .contacts__form-field {
+    opacity: 0.4;
+    text-align: start;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 90px;
+    border: none;
+    height: 30px;
+    width: 300px;
+    min-width: 100px;
+    max-width: 350px;
+  }
+  
+  .contacts__form-field::placeholder {
+    font-size: 12px;
+    text-overflow: ellipsis;
+  
+  }
+  
+  .contacts__form-button {
+    background-color: var(--accent-color);
+    color: var(--main-color);
+    border-radius: 90px;
+    height: 30px;
+    border: none;
+    width: 300px;
+    min-width: 100px;
+    max-width: 350px;
+    margin-top: 50px;
+    font-size: 10px;
+    font-weight: 700;
+  }
+  
+  .contacts__form-button:hover {
+    background-color: var(--text-color);
+  }

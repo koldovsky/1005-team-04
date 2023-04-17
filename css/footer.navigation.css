@@ -1,0 +1,41 @@
+.thaidiving-title {
+    font-family: "Dosis", sans-serif;
+    font-size: 38px;
+    text-align: center;
+    color: var(--main-color);
+}
+.container-social {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 4 колонки з рівномірним розподілом простору */
+    gap: 20px; /* Відступи між елементами */
+}
+
+.creator__name {
+    text-align: center;
+    display: block;
+}
+.information__link-nav {
+    text-align: center;
+    display: block;
+}
+.creator__name {
+    text-align: center;
+    color: var(--main-color);
+    
+}
+
+.container__social {
+    display: flex;
+    max-width: 120px;
+    max-height: 120px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.facebook {
+    padding-left: 10px;
+}
+.instagram {
+    padding-left: 10px;
+}

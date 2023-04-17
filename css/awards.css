@@ -1,0 +1,42 @@
+.title-block {
+    font-family: "Dosis", sans-serif;
+    font-size: 38px;
+    text-align: center;
+    color: var(--main-color);
+}
+.diving-icon {
+    display: block;
+    height: 100%;
+    max-width: 100%;
+    margin: auto;
+    width: 70px;
+}
+.awards__container {
+    display: flex;
+    justify-content: center;
+}
+.element {
+    max-width: 350px;
+    max-height: 250px;
+}
+
+@media (max-width: 768px) {
+    .awards__container {
+      flex-direction: column;
+      align-items: center; 
+    }
+  
+    .element {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1010px) {
+    .awards__container {
+        flex-wrap: wrap;
+    }
+    .element {
+            flex-basis: calc(50% - 10px); /* Розмір елемента в стовпцях */
+            margin: 5px;
+          }
+    }
