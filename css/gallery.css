@@ -11,20 +11,16 @@
 .carousel {
  align-items: center;
  justify-content: space-around;
-    margin: 0 auto;
-    padding: 20px 10px;
-    margin: 0 auto;
 
 }
 .carousel__slide {
 display: block;
-margin: 15px;
+margin: 10px ;
 }
   
 .carousel__slide img {
-height: 250px;
 width: 100%;
-max-width: 400px;
+max-width: 380px;
 object-fit: cover;
 }
 
@@ -33,6 +29,5 @@ object-fit: cover;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        flex: 1;
-    }
+     }
 }
