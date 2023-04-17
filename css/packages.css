@@ -1,9 +1,8 @@
 .packages {
     background-image: url(../images/packages-background.jpg);
-    background-size: cover;
+    background-size:auto;
     padding-top: 50px;
     padding-bottom: 50px;
-
 }
 
 .packages__title {
