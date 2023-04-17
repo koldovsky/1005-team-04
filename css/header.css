@@ -112,6 +112,10 @@
         text-decoration: none;
     }
 
+    .header__menu-item:hover {
+        color: var(--menu-color);
+    }
+
     .header__menu-item-button-top {
         box-sizing: border-box;
         background-color: var(--accent-color);
@@ -122,6 +126,7 @@
         color: var(--main-color);
         text-align: center;
         text-decoration: none;
+        text-transform: uppercase;
     }
 
     .header__social {
@@ -159,6 +164,10 @@
         padding: 20px;
     }
 
+    .header__banner {
+        padding-top: 120px;
+    }
+
     .header_button {
         padding-top: 50px;
     }
@@ -171,5 +180,17 @@
         min-width: 1000px;
         margin: 0 280px;
         padding: 30px 0;
+    }
+
+    .header__banner_button {
+        padding: 20px 30px;
+    }
+
+    .header__menu-item-button-top:hover {
+        background-color: var(--text-color);
+    }
+
+    .header__banner_button:hover {
+        background-color: var(--text-color);
     }
 }
