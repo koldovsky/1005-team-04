@@ -1,9 +1,8 @@
 .title-block {
-    color: var(--main-color);
+    font-family: "Dosis", sans-serif;
+    font-size: 38px;
     text-align: center;
-    display: block;
-    font-size: 1.5em;
-    font-weight: bold;
+    color: var(--main-color);
 }
 .diving-icon {
     display: block;

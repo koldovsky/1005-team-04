@@ -1,8 +1,8 @@
 .thaidiving-title {
+    font-family: "Dosis", sans-serif;
+    font-size: 38px;
     text-align: center;
-    display: block;
-    font-size: 1.5em;
-    font-weight: bold;
+    color: var(--main-color);
 }
 .container-social {
     display: grid;
@@ -21,11 +21,21 @@
 .creator__name {
     text-align: center;
     color: var(--main-color);
+    
 }
+
 .container__social {
     display: flex;
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 120px;
+    max-height: 120px;
     margin: auto;
-   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.facebook {
+    padding-left: 10px;
+}
+.instagram {
+    padding-left: 10px;
 }
