@@ -1,7 +1,8 @@
 .packages {
     background-image: url(../images/background-packages.jpg);
-    background-size: cover;
-    padding-top: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -38,4 +39,10 @@
     font-size: 16px;
     text-align: start;
     color: var(--text-color);
+}
+
+.courses__button-place {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
