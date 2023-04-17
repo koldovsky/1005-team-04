@@ -22,11 +22,13 @@
     background-color: var(--block-background);
 }
 
-p{
+p {
     color: var(--text-color);
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
     color: var(--main-color);
 }
 
@@ -43,4 +45,9 @@ img {
     max-width: 100%;
     margin: auto;
     width: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
 }

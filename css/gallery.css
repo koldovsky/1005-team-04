@@ -33,7 +33,6 @@ object-fit: cover;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        max-width: 1400px;
         flex: 1;
     }
 }
