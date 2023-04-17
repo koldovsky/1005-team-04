@@ -82,7 +82,7 @@
     border: none;
     height: 30px;
     width: 300px;
-    min-width: 200px;
+    min-width: 100px;
     max-width: 350px;
   }
   
@@ -99,6 +99,7 @@
     height: 30px;
     border: none;
     width: 300px;
+    min-width: 100px;
     max-width: 350px;
     margin-top: 50px;
     font-size: 10px;
