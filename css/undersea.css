@@ -33,7 +33,7 @@
   padding: 15px;
 }
 .diving__img{
-  margin: auto;  
+ text-align: center; 
 }
 .pictures{
   max-width: 570px;
