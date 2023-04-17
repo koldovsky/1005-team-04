@@ -1,32 +1,35 @@
 .phuket {
-    background: url("../images/background-explore-diver.png") 50.31% 95.11% / cover no-repeat;    
+    background: url("../images/background-explore-diver.png") 50.31% 95.11% / cover no-repeat;
     /* padding: 50px 32px 80px 32px; */
     min-width: 320px;
 }
 
-.phuket__background{
+.phuket__background {
     background: linear-gradient(0deg, rgba(0, 14, 36, 0.4) 0%, rgba(0, 14, 36, 0.55) 100%);
     padding: 50px 32px 80px 32px;
     /* min-width: 320px; */
 }
 
-.phuket__header-logo{
+.phuket__header-logo {
     margin: 30px 15px 0px 15px;
     text-align: center;
 }
-.phuket__header-logo .diving-icon{
+
+.phuket__header-logo .diving-icon {
     width: 50px;
 }
+
 .phuket__header-title {
     margin: 30px 15px 0px 15px;
     text-align: center;
 }
+
 .phuket__header-title h2 {
     color: var(--main-color);
     font-size: 38px;
 }
 
-.phuket__container{
+.phuket__container {
     display: flex;
     margin-top: 45px;
     font-size: 16px;
@@ -40,29 +43,32 @@
     margin-bottom: 25px;
 }
 
-.container__image{
+.container__image {
     display: flex;
     align-self: flex-start;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     min-height: 32px;
 }
 
 @media (min-width: 768px) {
-    .phuket__header-logo .diving-icon{
+    .phuket__header-logo .diving-icon {
         height: 70px;
         width: 70px;
     }
+
     .phuket__header-title h2 {
         font-size: 44px;
     }
-    .phuket__container{
+
+    .phuket__container {
         display: grid;
         grid-template-columns: 50% 50%;
     }
+
     .container__image,
     .container__text {
         margin: 0px 15px 0px 15px;
-    } 
+    }
 }
 
 @media (min-width: 990px) {
