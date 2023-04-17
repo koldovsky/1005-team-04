@@ -1,8 +1,7 @@
 .destinations {
     background-image: url(../images/directions-background.jpg);
     background-size: cover;
-    padding-top: 40px;
-    padding-bottom: 30px;
+    padding: 40px 40px 30px 40px;  
 }
 
 .destinations__title {
@@ -16,8 +15,7 @@
     background-color: var(--box-background);
     max-width: 100%;
     /* ширина блока по ширині вікна */
-    padding: 20px 50px;
-    margin: 20px 80px;
+    padding: 20px 40px 20px 40px;
 }
 
 .destinations__box-item {

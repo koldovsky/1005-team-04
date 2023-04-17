@@ -1,7 +1,6 @@
-img {
-    display: block;
-    max-width: 100%;
-}
+/* * {
+    border: solid 1px red;
+} */
 /* external container - for relation to other sections*/
 .courses {
     background-image: url(../images/courses_background.jpg);
@@ -34,7 +33,7 @@ img {
 }
 /* block for text */
 .box-item__info {
-    background-color: rgb(6, 30, 59); /*temporary*/
+    background-color: var(--box-background);
     padding: 31px 27px;
 }
 /*text information*/
@@ -43,6 +42,38 @@ img {
     text-align: left;
     font-size: 16px;
     margin-top: 20px;
+}
+/*link to another page*/
+.box-item__link {
+    font-family: "Chivo", sans-serif;
+    font-size: 11px;
+    text-align: left;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+.box-item a:hover {
+    color: var(--main-color);
+    text-decoration: underline;
+}
+/*button courses*/
+.courses__button {
+    font-family: "Chivo", sans-serif;
+    font-size: 11px;
+    box-sizing: border-box;
+    color: var(--main-color);
+    background-color: var(--block-background);
+    border-radius: 2.5em;
+    text-decoration: none;
+    padding: 15px 25px;
+    border: solid 1px var(--text-color);
+}
+.courses__button:hover {
+    background-color: var(--accent-color);
+}
+.courses__button-place {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 /*two columns if width more than 768*/
 @media (min-width: 768px) {
@@ -79,8 +110,18 @@ img {
         padding: 40px 30px 40px 30px;
     }
     .box-item__image {
-        
         height: 100%;
         width: 100%;
     }
+}
+@media (min-width: 1200px) {
+    .courses__box {
+        grid-auto-columns: 100px;
+    }
+    img {
+        display: block;
+        width: auto;
+        height: auto;
+        max-width: 100%;
+      }
 }
