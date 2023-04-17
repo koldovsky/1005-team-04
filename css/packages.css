@@ -1,6 +1,7 @@
 .packages {
-    background-image: url(../images/packages-background.jpg);
-    background-size:auto;
+    background-image: url(../images/background-packages.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     padding-top: 50px;
     padding-bottom: 50px;
 }
