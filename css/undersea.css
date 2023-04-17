@@ -19,38 +19,27 @@
   height: 100%;
   max-width: 100%;
   margin: auto;
- 
   width: 70px;
 }
-
 .span__title{
-  
   display: block;
   text-align: center;
   font-size: 50px;
   color: white;
   letter-spacing: -1.05px;
 }
-
-
 .body__content{
   text-align: center;
   padding: 15px;
-
 }
 .diving__img{
-  margin: auto;
-  width: 570.4px;
-  height: 394.6px;
-  margin: auto;
-  
+  margin: auto;  
 }
 .pictures{
   max-width: 570px;
   max-height: 316px;
 }
 .picture__text{
-
   padding-top: 10px;
   color: white;
   font-size:26px ;
@@ -61,7 +50,6 @@
  color: var(--text-color);
  text-align: center;
 }
-
 .content__picture-diving{
   padding-left: 15px;
   padding-right: 15px;
