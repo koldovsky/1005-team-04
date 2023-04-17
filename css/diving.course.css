@@ -1,0 +1,11 @@
+.diving-trip{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.diving-course{
+   display: flex;
+}
+.diving-course__item {
+    width: 50%;
+}
