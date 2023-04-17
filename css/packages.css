@@ -40,3 +40,9 @@
     text-align: start;
     color: var(--text-color);
 }
+
+.courses__button-place {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
