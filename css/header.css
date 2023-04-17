@@ -25,15 +25,13 @@
 
 .header__menu {
     display: flex;
-    padding: 50px;
-    padding-right: 100px;
+    flex-direction: column;
 }
 
 .header__menu-item {
     color: var(--main-color);
     font-family: 'Chivo', sans-serif;
     font-size: 14px;
-    margin: 10px;
     text-decoration: none;
 }
 
@@ -102,6 +100,33 @@
 }
 
 @media (min-width: 950px) {
+    .header__menu {
+        display: flex;
+        flex-direction: row;
+        /* padding: 50px;
+        padding-right: 100px; */
+    }
+
+    .header__menu-item {
+        color: var(--main-color);
+        font-family: 'Chivo', sans-serif;
+        font-size: 14px;
+        padding: 15px;
+        text-decoration: none;
+    }
+
+    .header__menu-item-button-top {
+        box-sizing: border-box;
+        background-color: var(--accent-color);
+        border-radius: 2.5em;
+        font-size: 11px;
+        font-family: 'Chivo', sans-serif;
+        padding: 15px 25px;
+        color: var(--main-color);
+        text-align: center;
+        text-decoration: none;
+    }
+
     .header__social {
         display: grid;
         grid-template-columns: 1fr 1fr;
