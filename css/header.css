@@ -22,7 +22,9 @@
 }
 
 .header__menu {
+    display: flex;
     padding: 50px;
+    padding-right: 100px;
 }
 
 .header__menu-item {
@@ -40,7 +42,6 @@
     font-size: 11px;
     font-family: 'Chivo', sans-serif;
     padding: 15px 25px;
-    margin: 30px;
     color: var(--main-color);
     text-align: center;
     text-decoration: none;
@@ -110,8 +111,9 @@
 
     .social__logo {
         display: flex;
+        justify-content: flex-end;
         gap: 20px;
-        padding-left: 700px;
+        padding-right: 300px;
     }
 
     .social__logo-container {
