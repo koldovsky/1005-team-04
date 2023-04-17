@@ -6,8 +6,7 @@
     padding-bottom: 50px;
     line-height: 1.5; /* збільшення міжрядкового інтервалу */
     max-width: 100%; /* ширина блока по ширині вікна */
-    padding: 20px 0px 50px 0px;
-    margin: 20px 80px;
+    padding: 20px 40px 50px 40px;
   }
   
   .diving-icon-left {
@@ -83,6 +82,7 @@
     border: none;
     height: 30px;
     width: 300px;
+    min-width: 200px;
     max-width: 350px;
   }
   
