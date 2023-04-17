@@ -1,7 +1,7 @@
 .destinations {
     background-image: url(../images/directions-background.jpg);
     background-size: cover;
-    padding: 40px 40px 30px 40px;  
+    padding: 40px 40px 30px 40px;
 }
 
 .destinations__title {
@@ -29,6 +29,12 @@
     box-sizing: border-box;
     padding-top: 10px;
     margin-bottom: 30px;
+}
+
+@media (min-width: 900px) {
+    .reverse {
+        flex-direction: row-reverse;
+    }
 }
 
 .box-item-image {
