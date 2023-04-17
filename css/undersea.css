@@ -61,8 +61,7 @@
   flex-direction: row;
 }
 .pictures__box{
-  margin-top: 50px;
-  margin-right: 25px;
+ margin: auto;
 }
 #picture__ocean{
   max-width: 379.37px;
