@@ -1,17 +1,17 @@
 .header__social,
 .social__logo {
-    display: block;
+    /* display: block;
     position: fixed;
     top: 0;
     left: -100%;
-    width: 30px;
+    width: 300px;
     height: 100%;
     margin: 0;
     padding: 80px 0;
     list-style: none;
-    background-color: #ECEFF1;
+    background-color: #ECEFF1; */
     box-shadow: 1px 0px 6px;
-    transition-duration: .25s;
+    /* transition-duration: .25s; */
 }
 
 .header__nav {
@@ -133,14 +133,41 @@
 }
 
 @media (min-width: 950px) {
-    .header__nav {
-        align-items: center;
+    .header__social {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: var(--header-color);
+        font-family: 'Chivo', sans-serif;
+        padding: 0 280px;
+    }
+
+    .sociales__telephone-number {
+        color: var(--main-color);
+        text-decoration: none;
+        padding-left: 70px;
+    }
+
+    .social__logo {
         display: flex;
-        justify-content: space-between;
-        min-height: 44px;
-        min-width: 1000px;
-        margin: 0 280px;
-        padding: 30px 0;
+        justify-content: flex-end;
+        gap: 20px;
+        padding-right: 100px;
+    }
+
+    .social__logo-container {
+        display: flex;
+        height: 30px;
+        width: 30px;
+    }
+
+
+
+
+    .header__nav {
+        display: grid;
+       grid-template-columns: 3fr 1fr;
+       justify-content: center;
+       padding: 0 200px 50px;
     }
 
     .header__menu {
@@ -177,32 +204,7 @@
         background-color: var(--text-color);
     }
 
-    .header__social {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        background-color: var(--header-color);
-        font-family: 'Chivo', sans-serif;
-        padding: 0 280px;
-    }
-
-    .sociales__telephone-number {
-        color: var(--main-color);
-        text-decoration: none;
-        padding-left: 70px;
-    }
-
-    .social__logo {
-        display: flex;
-        justify-content: flex-end;
-        gap: 20px;
-        padding-right: 100px;
-    }
-
-    .social__logo-container {
-        display: flex;
-        height: 30px;
-        width: 30px;
-    }
+    
 
     .burger-menu {
         display: none;
