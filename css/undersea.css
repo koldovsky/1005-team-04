@@ -1,7 +1,6 @@
 .under-sea__world{
   background-color:var(--header-color) ;
   height: 100%;
-
 }
 .section__header{
   text-align: center;
@@ -10,7 +9,6 @@
   padding-top: 20px;
 }
 #pictures { 
-     
      width: 100%; 
     }
 
@@ -46,9 +44,11 @@
 
 }
 .picture__content{
- padding: 10px;
- color: var(--text-color);
- text-align: center;
+  font-size: 16px;
+  font-family: Chivo, sans-serif;
+  padding: 10px;
+  color: var(--text-color);
+   text-align: center;
 }
 .content__picture-diving{
   padding-left: 15px;
