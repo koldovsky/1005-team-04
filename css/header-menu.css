@@ -128,9 +128,9 @@
 
     .social__telephone {
         display: flex;
-       gap: 900px;
-        margin-left: 15%;
-        text-align: center;
+        gap: 600px;
+        margin-left: 10%;
+        align-items: center;
 
     }
 
