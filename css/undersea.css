@@ -69,7 +69,7 @@
 .button:hover{
   background: none;
   color:white ;
-  background-color: #FF5B00;}
+  background-color:var(--accent-color);}
 
 .button{
   color: white;
@@ -78,7 +78,7 @@
  border-radius: 2.5em;
  font-size: 1em;
  text-decoration: none;
- border-color: rgb(72, 134,174);
+ border-color:var(--text-color);
 }
 .content__picture-ocean{
   margin: auto;
