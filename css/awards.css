@@ -36,7 +36,7 @@
         flex-wrap: wrap;
     }
     .element {
-            flex-basis: calc(50% - 10px); /* Розмір елемента в стовпцях */
+            flex-basis: calc(50% - 10px); 
             margin: 5px;
           }
     }
