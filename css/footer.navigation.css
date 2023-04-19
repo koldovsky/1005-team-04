@@ -6,15 +6,15 @@
 }
 .container-social {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 4 колонки з рівномірним розподілом простору */
-    gap: 20px; /* Відступи між елементами */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
 }
 
 .creator__name {
     text-align: center;
     display: block;
 }
-.information__link-nav {
+.information {
     text-align: center;
     display: block;
 }
@@ -38,4 +38,13 @@
 }
 .instagram {
     padding-left: 10px;
+}
+@media (min-width: 768px) {
+    .information-item {
+        display: inline-block;
+    }
+}
+.information-item:hover {
+    color:red;
+    text-decoration:underline;
 }

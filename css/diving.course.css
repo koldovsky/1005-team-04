@@ -1,10 +1,51 @@
+.diving-trip__title, .diving-course-about__title{
+    font-size: 50px;
+}
+.diving-trip__title{
+    text-align: center;
+}
+.diving-trip__item{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.diving-trip__contacts{
+    font-family: "Chivo", sans-serif;
+    color: var(--main-color);
+    background-color:  var(--accent-color);
+    font-size: 11px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    border-radius: 21px;
+}
+.diving-trip__contacts:hover{
+    background-color:  var( --text-color);
+}
+.diving-course-about__button{
+    font-family: "Chivo", sans-serif;
+    color: var(--main-color);
+    font-size: 11px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 12px 24px;
+    border-radius: 21px;
+    border: solid 1px var(--text-color);
+}
+.diving-course-about__button:hover{
+    background-color:  var(--accent-color);
+    border: none;
+}
 .diving-trip{
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
 }
+@media (min-width: 768px) {
 .diving-course{
    display: grid;
    grid-template-columns: 1fr 1fr;
+}
 }
