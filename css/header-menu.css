@@ -1,8 +1,6 @@
-.header__social,
-.social__logo {
+.header__social{
     display: none;
 }
-
 .header__nav {
     display: flex;
     justify-content: center;
@@ -120,18 +118,16 @@
 
 @media (min-width: 950px) {
     .header__social {
-        display: flex;
-        text-align: center;
+        display: block;
         background-color: var(--header-color);
         font-family: 'Chivo', sans-serif;
     }
 
     .social__telephone {
         display: flex;
-        gap: 600px;
+        justify-content: space-between;
         margin-left: 10%;
         align-items: center;
-
     }
 
     .social__telephone-number {

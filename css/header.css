@@ -57,6 +57,7 @@
 @media (min-width: 950px) {
     .header__title {
         padding: 200px 0px 20px 0px;
+        font-size: 70px;
     }
 
     .header__text {
