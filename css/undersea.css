@@ -1,16 +1,14 @@
-.under-sea__world{
-  background-color:var(--header-color) ;
+.under-sea__world {
+  background-color: var(--header-color);
   height: 100%;
 }
-.section__header{
+.section__header {
   text-align: center;
 }
-.header__title{
+.header__title {
   padding-top: 20px;
 }
-#pictures { 
-     width: 100%; 
-    }
+
 
 .img__logo {
   display: block;
@@ -19,74 +17,76 @@
   margin: auto;
   width: 70px;
 }
-.span__title{
+.span__title {
   display: block;
   text-align: center;
   font-size: 50px;
-  color: white;
+  color: var(--main-color);
   letter-spacing: -1.05px;
 }
-.body__content{
+.body__content {
   text-align: center;
   padding: 15px;
 }
-.diving__img{
- text-align: center; 
+.diving__img {
+  text-align: center;
 }
-.pictures{
+.pictures {
   max-width: 570px;
   max-height: 316px;
 }
-.picture__text{
+.picture__text {
   padding-top: 10px;
   color: white;
-  font-size:26px ;
-
+  font-size: 26px;
 }
-.picture__content{
+.picture__content {
   font-size: 16px;
   font-family: Chivo, sans-serif;
   padding: 10px;
   color: var(--text-color);
-   text-align: center;
+  text-align: center;
 }
-.content__picture-diving{
+.content__picture-diving {
   padding-left: 15px;
   padding-right: 15px;
-  margin-top:auto;
+  margin-top: auto;
 }
-.content__picture-diving{
+.content__picture-diving {
   display: flex;
   flex-direction: row;
 }
-.pictures__box{
+.pictures__box {
   margin-top: 50px;
   margin-right: 25px;
 }
-#picture__ocean{
+#picture__ocean {
   max-width: 379.37px;
 }
-.button:hover{
+.button:hover {
   background: none;
-  color:white ;
-  background-color: #FF5B00;}
-
-.button{
   color: white;
- border: 1px solid;
- padding:1em 2em ;
- border-radius: 2.5em;
- font-size: 1em;
- text-decoration: none;
- border-color: rgb(72, 134,174);
+  background-color: var(--accent-color);
 }
-.content__picture-ocean{
+
+.button {
+  color: white;
+  border: 1px solid;
+  padding: 1em 2em;
+  border-radius: 2.5em;
+  font-size: 1em;
+  text-decoration: none;
+  border-color: var(--text-color);
+}
+.content__picture-ocean {
   margin: auto;
-  margin-left:0px;
+  margin-left: 0px;
 }
-.btn{margin: 40px;}
-@media only screen and (max-width: 768px) { 
-  .content__picture-diving{
+.btn {
+  margin: 40px;
+}
+@media only screen and (max-width: 768px) {
+  .content__picture-diving {
     flex-direction: column;
   }
-} 
+}
