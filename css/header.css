@@ -19,9 +19,8 @@
 .header__title {
     font-family: 'Dosis', sans-serif;
     font-size: 111px;
-    font-weight: 700;
     color: var(--main-color);
-    padding: 130px 24px 0 20px;
+    padding: 100px 24px 0 20px;
     text-align: center;
     text-transform: none;
     word-wrap: break-word;
@@ -31,7 +30,7 @@
     color: var(--main-color);
     font-family: 'Chivo', sans-serif;
     font-size: 20px;
-    padding-top: 10px;
+    padding-top: 30px;
     text-align: center;
     text-transform: none;
 }
@@ -39,7 +38,8 @@
 .header_button {
     display: flex;
     justify-content: center;
-
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .header__banner_button {

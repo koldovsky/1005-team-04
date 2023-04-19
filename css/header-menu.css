@@ -4,14 +4,12 @@
 }
 
 .header__nav {
-    align-items: center;
     display: flex;
     justify-content: center;
-    padding: 30px 0;
 }
 
 .header__logo-container {
-    margin-left: 20px;
+    padding: 20px 0;
 }
 
 .logo-container {
@@ -27,13 +25,16 @@
 }
 
 .burger-menu {
-    display: block;
-    position: relative;
-    width: 24px;
-    height: 16px;
-    padding: 7px;
+    align-items: center;
     cursor: pointer;
-    z-index: 5;
+    display: flex;
+    height: 26px;
+    margin-top: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 26px;
+    z-index: 1;
 }
 
 .burger-menu span,
@@ -118,27 +119,32 @@
 
 @media (min-width: 950px) {
     .header__social {
-        display: grid;
-        grid-template-columns: 3fr 1fr;
+        display: flex;
+        text-align: center;
         background-color: var(--header-color);
         font-family: 'Chivo', sans-serif;
     }
 
-    .sociales__telephone-number {
+    .social__telephone {
+        display: flex;
+       gap: 900px;
+        margin-left: 15%;
+        text-align: center;
+
+    }
+
+    .social__telephone-number {
         color: var(--main-color);
         text-decoration: none;
-        
     }
 
     .social__logo {
         display: flex;
-       
+        justify-content: space-between;
         gap: 20px;
-        
     }
 
     .social__logo-container {
-        display: flex;
         height: 30px;
         width: 30px;
     }
@@ -147,20 +153,23 @@
         display: grid;
         grid-template-columns: 3fr 1fr;
         justify-content: center;
-        padding: 0 200px 50px;
     }
-
+    .logo-container{
+        margin-left: 20%;
+    }
     .header__menu {
         display: flex;
         flex-direction: row;
     }
 
     .header__menu-item {
+        display: block;
         color: var(--main-color);
         font-family: 'Chivo', sans-serif;
         font-size: 14px;
-        padding: 15px;
-        text-decoration: none;
+        max-width: 100%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
 
     .header__menu-item:hover {
@@ -168,16 +177,10 @@
     }
 
     .header__menu-item-button-top {
-        box-sizing: border-box;
-        background-color: var(--accent-color);
-        border-radius: 2.5em;
-        font-size: 11px;
-        font-family: 'Chivo', sans-serif;
-        padding: 17px 25px;
-        color: var(--main-color);
-        text-align: center;
+        display: block;
+        text-overflow: ellipsis;
         text-decoration: none;
-        text-transform: uppercase;
+        white-space: nowrap;
     }
 
     .header__menu-item-button-top:hover {
