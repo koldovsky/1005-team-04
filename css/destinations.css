@@ -1,6 +1,7 @@
 .destinations {
     background-image: url(../images/directions-background.jpg);
     background-size: cover;
+    background-position: 50% 50%;
     padding: 40px 40px 30px 40px;
 }
 
