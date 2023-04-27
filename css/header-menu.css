@@ -102,7 +102,6 @@
     text-decoration: none;
     transition-duration: .25s;
 }
-
 .header__menu-item-button-top {
     background-color: var(--accent-color);
     border-radius: 2.5em;
@@ -158,6 +157,7 @@
     .header__menu {
         display: flex;
         flex-direction: row;
+        position: static;
     }
 
     .header__menu-item {
