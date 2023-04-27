@@ -1,121 +1,125 @@
 .destinations {
-    background-image: url(../images/directions-background.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
-    padding: 40px 40px 30px 40px;
+  background-image: url(../images/directions-background.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 40px 40px 30px 40px;
 }
 
 .destinations__title {
-    font-family: "Dosis", sans-serif;
-    font-size: 38px;
-    text-align: center;
-    color: var(--main-color);
+  font-family: "Dosis", sans-serif;
+  font-size: 38px;
+  text-align: center;
+  color: var(--main-color);
 }
 
 .destinations__box {
-    background-color: var(--box-background);
-    max-width: 100%;
-    /* ширина блока по ширині вікна */
-    padding: 20px 40px 20px 40px;
+  background-color: var(--box-background);
+  max-width: 100%;
+  /* ширина блока по ширині вікна */
+  padding: 20px 40px 20px 40px;
 }
 
 .destinations {
-    background-image: url(../images/directions-background.jpg);
-    background-size: cover;
-    background-position: 67% 50%;
-    padding: 40px 40px 30px 40px;
+  background-image: url(../images/directions-background.jpg);
+  background-size: cover;
+  background-position: 67% 50%;
+  padding: 40px 40px 30px 40px;
+}
+
+.destinations__title {
+  font-family: "Dosis", sans-serif;
+  font-size: 38px;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.destinations__box {
+  background-color: var(--box-background);
+  padding: 20px 40px 20px 40px;
+}
+
+.destinations__box-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 900px) {
+  .reverse {
+    flex-direction: row-reverse;
   }
-  
-  .destinations__title {
-    font-family: "Dosis", sans-serif;
-    font-size: 38px;
-    text-align: center;
-    color: var(--main-color);
-  }
-  
-  .destinations__box {
-    background-color: var(--box-background);
-    padding: 20px 40px 20px 40px;
-  }
-  
-  .destinations__box-item {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    box-sizing: border-box;
-    padding-top: 10px;
-    margin-bottom: 30px;
-  }
-  
-  @media (min-width: 900px) {
-    .reverse {
-      flex-direction: row-reverse;
-    }
-  }
-  
-  .box-item-image {
-    max-width: 500px;
-    /* ???? чи щось дає*/
-    height: fit-content;
-    /* !!!! не міняє висоту!!!*/
-  }
-  
-  .box-item-info {
-    text-align: left;
-    padding: 35px 30px;
-    max-width: 500px;
-    /* макс ширина як макс ширина фото над нею; */
-  }
-  
-  .box-item-name {
-    font-family: "Dosis", sans-serif;
-    font-size: 22px;
-    text-align: left;
-    color: var(--main-color);
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .box-item-text {
-    font-family: "Chivo", sans-serif;
-    font-size: 16px;
-    color: var(--text-color);
-    text-align: left;
-    margin-bottom: 30px;
-  }
-  
-  .box-item-link {
-    font-family: "Chivo", sans-serif;
-    font-size: 11px;
-    text-align: left;
-    color: var(--accent-color);
-    text-decoration: none;
-  }
-  
-  .destinations__box-item a:hover {
-    color: var(--main-color);
-    text-decoration: underline;
-  }
-  
-  .destinations__button {
-    font-family: "Chivo", sans-serif;
-    font-size: 11px;
-    box-sizing: border-box;
-    color: var(--main-color);
-    background-color: var(--block-background);
-    border-radius: 2.5em;
-    text-decoration: none;
-    padding: 15px 25px;
-    border: solid 1px var(--main-color);
-  }
-  
-  .destinations__button:hover {
-    background-color: var(--accent-color);
-  }
-  
-  .destinations__button-place {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-  }
+}
+
+.box-item-image {
+  max-width: 500px;
+  /* ???? чи щось дає*/
+  height: fit-content;
+  /* !!!! не міняє висоту!!!*/
+}
+
+.box-item-info {
+  text-align: left;
+  padding: 35px 30px;
+  max-width: 500px;
+  /* макс ширина як макс ширина фото над нею; */
+}
+
+.box-item-name {
+  font-family: "Dosis", sans-serif;
+  font-size: 22px;
+  text-align: left;
+  color: var(--main-color);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.destination-counter {
+  color: var(--accent-color);
+}
+
+.box-item-text {
+  font-family: "Chivo", sans-serif;
+  font-size: 16px;
+  color: var(--text-color);
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.box-item-link {
+  font-family: "Chivo", sans-serif;
+  font-size: 11px;
+  text-align: left;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.destinations__box-item a:hover {
+  color: var(--main-color);
+  text-decoration: underline;
+}
+
+.destinations__button {
+  font-family: "Chivo", sans-serif;
+  font-size: 11px;
+  box-sizing: border-box;
+  color: var(--main-color);
+  background-color: var(--block-background);
+  border-radius: 2.5em;
+  text-decoration: none;
+  padding: 15px 25px;
+  border: solid 1px var(--main-color);
+}
+
+.destinations__button:hover {
+  background-color: var(--accent-color);
+}
+
+.destinations__button-place {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
