@@ -5,5 +5,5 @@ burgerMenu.addEventListener('click', () => {
     burgerMenu.classList.toggle('active');
     headerMenu.classList.toggle('active');
 });
-
 burgerMenu.addEventListener('click', toggleMenu);
+
