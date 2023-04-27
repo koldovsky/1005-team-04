@@ -60,23 +60,23 @@
     text-decoration: underline;
 }
 
-.courses__button {
+.courses__button-blink {
     font-family: "Chivo", sans-serif;
     font-size: 11px;
     box-sizing: border-box;
     color: var(--main-color);
-    background-color: var(--block-background);
+    background: var(--block-background);
     border-radius: 2.5em;
     text-decoration: none;
     padding: 15px 25px;
     border: solid 1px var(--text-color);
 }
 
-.courses__button:hover {
-    background-color: var(--accent-color);
+.courses__button-blink:hover {
+    background: var(--accent-color);
 }
 
-.courses__button-place {
+.courses__button-blink-place {
     display: flex;
     justify-content: center;
     margin-top: 50px;
