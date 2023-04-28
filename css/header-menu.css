@@ -173,7 +173,6 @@
     .header__menu {
         display: flex;
         flex-direction: row;
-        position: static;
     }
 
     .header__menu-item {
