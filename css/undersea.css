@@ -9,7 +9,6 @@
   padding-top: 20px;
 }
 
-
 .img__logo {
   display: block;
   height: 100%;
@@ -36,6 +35,7 @@
   max-height: 316px;
 }
 .picture__text {
+  margin: auto;
   padding-top: 10px;
   color: white;
   font-size: 26px;
