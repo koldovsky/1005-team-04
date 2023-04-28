@@ -22,6 +22,7 @@
   font-size: 50px;
   color: var(--main-color);
   letter-spacing: -1.05px;
+  font-family: 'Dosis', sans-serif;
 }
 .body__content {
   text-align: center;
@@ -45,7 +46,7 @@
 }
 .picture__content {
   font-size: 16px;
-  font-family: Chivo, sans-serif;
+  font-family: 'Dosis', sans-serif;
   padding: 10px;
   color: var(--text-color);
   text-align: center;
@@ -87,6 +88,9 @@
 }
 .btn {
   margin: 40px;
+}
+.btn__content{
+ font-family: Chivo,sans-serif;
 }
 @media only screen and (max-width: 768px) {
   .content__picture-diving {
