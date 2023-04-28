@@ -7,7 +7,8 @@ const slides = carouselSlide.querySelectorAll('.carousel__slide');
 let currentIndex = 0;
 
 function updateCarousel() {
-    carouselSlide.style.transform = `translateX(-${currentIndex * 100}%)`;
+    const slideWidth = slides[0].clientWidth; 
+    carouselSlide.style.transform = `translateX(-${currentIndex * slideWidth}px)`;   
 }
 
 prevButton.addEventListener('click', () => {
