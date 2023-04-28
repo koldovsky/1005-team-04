@@ -30,6 +30,9 @@
 .diving__img {
   text-align: center;
 }
+.p__title {
+  margin: auto;
+}
 .pictures {
   max-width: 570px;
   max-height: 316px;
