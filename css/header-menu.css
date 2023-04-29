@@ -8,8 +8,9 @@
 }
 
 .header__logo-container {
-    padding: 20px 0;
-}
+    padding: 20px 50px;
+    z-index: 11;
+} 
 
 .logo-container {
     height: 57px;
@@ -99,6 +100,8 @@
 }
 
 .header__menu.active {
+    font-size: 14px;
+    padding-top: 70px;
     position: fixed;
     top: 0;
     left: 0;
@@ -130,7 +133,6 @@
     text-align: center;
     text-decoration: none;
 }
-
 
 @media (min-width: 950px) {
     .header__social {
