@@ -1,5 +1,5 @@
 const coursesBtncolor = document.querySelector('.courses__button-blink');
-const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet' ];
+const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 let indexColor = 0;
 
 function updateColor() {
