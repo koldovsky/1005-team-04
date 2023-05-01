@@ -14,6 +14,11 @@
     color: var(--main-color);
 }
 
+.packages__box {
+    background-color: var(--box-background);
+    max-width: 100%;
+    padding: 20px 40px 20px 40px;
+}
 .packages__title-text {
     font-family: 'Chivo', sans-serif;
     font-size: 20px;
