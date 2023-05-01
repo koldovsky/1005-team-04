@@ -7,9 +7,17 @@ const slides = carouselSlide.querySelectorAll('.carousel__slide');
 let currentIndex = 0;
 
 function updateCarousel() {
-    const slideWidth = slides[0].clientWidth; 
-    carouselSlide.style.transform = `translateX(-${currentIndex * slideWidth}px)`;   
-}
+    const slideWidth = slides[0].clientWidth;
+    if (currentIndex !== slides.length - 1) {
+        currentIndex === 0;
+    }
+    carouselSlide.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+};
+
+function nextSlide() {
+    currentIndex = (currentIndex + 1) % slides.length;
+    updateCarousel();
+};
 
 prevButton.addEventListener('click', () => {
     currentIndex = (currentIndex - 1 + slides.length) % slides.length;
@@ -17,6 +25,8 @@ prevButton.addEventListener('click', () => {
 });
 
 nextButton.addEventListener('click', () => {
-    currentIndex = (currentIndex + 1) % slides.length;
-    updateCarousel();
+    nextSlide();
 });
+
+nextSlide();
+setInterval(nextSlide, 7000);

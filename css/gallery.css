@@ -17,7 +17,7 @@
 
 .places-gallery__carousel-slides {
     display: flex;
-    transition: transform 0.5s ease-in-out;
+    transition: width 2s, transform 2s;
     justify-content: flex-start;
 }
 
@@ -39,14 +39,29 @@
     transform: translateY(-50%);
     border: none;
     cursor: pointer;
+    background-color: transparent;
+}
+
+.carousel__button img {
+    width: 25px;
+    height: 25 px;
+    object-fit: cover;
 }
 
 .carousel__button--prev {
     left: 10px;
+
 }
 
 .carousel__button--next {
     right: 10px;
+
+}
+.carousel__button--prev:hover {
+    filter: invert(100%) brightness(90%) saturate(60%);
+}
+.carousel__button--next:hover {
+    filter: invert(100%) brightness(90%) saturate(60%);
 }
 
 @media (min-width: 700px) {
