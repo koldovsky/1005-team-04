@@ -57,6 +57,8 @@
     font-size: 26px;
     text-align: center;
     color: var(--main-color);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .box__item-text {
@@ -64,6 +66,7 @@
     font-size: 16px;
     text-align: center;
     color: var(--text-color);
+    margin-bottom: 20px;
 }
 
 .box__item-link {
