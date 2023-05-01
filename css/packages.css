@@ -48,6 +48,11 @@
     color: var(--text-color);
 }
 
+.box-item-image {
+    max-width: 500px;
+    height: fit-content;
+}
+
 .box-item-name {
     font-family: 'Dosis', sans-serif;
     font-size: 26px;
