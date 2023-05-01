@@ -82,6 +82,10 @@
     border: solid 1px var(--main-color);
   }
 
+.packages__button:hover {
+    background-color: var(--accent-color);
+}
+
 .packages__button-place {
     display: flex;
     justify-content: center;
