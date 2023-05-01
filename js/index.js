@@ -3,4 +3,5 @@ document.addEventListener("partialsLoaded",() =>{
     import('./destinations-counter.js');
     import(`./header.partial.js`);
     import('./courses.js');
+    import('./awords-carousel.js');
 });
