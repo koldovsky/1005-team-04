@@ -15,16 +15,15 @@
 }
 
 .packages__box {
-    background-color: var(--box-background);
     display: flex;
     justify-content: space-around;
     padding: 0px 20px;
-    padding-top: 40px;
+    padding-top: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    min-height: 570px;
-    max-width: 1330px;
+    min-height: 600px;
+    max-width: 100%;
 }
 
 .packages__box-item {
@@ -64,6 +63,18 @@
     text-align: start;
     color: var(--text-color);
 }
+
+.destinations__button {
+    font-family: "Chivo", sans-serif;
+    font-size: 11px;
+    box-sizing: border-box;
+    color: var(--main-color);
+    background-color: var(--block-background);
+    border-radius: 2.5em;
+    text-decoration: none;
+    padding: 15px 25px;
+    border: solid 1px var(--main-color);
+  }
 
 .courses__button-place {
     display: flex;
