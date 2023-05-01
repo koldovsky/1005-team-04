@@ -137,7 +137,6 @@
 @media (min-width: 950px) {
     .header__social {
         display: block;
-        background-color: var(--header-color);
         font-family: 'Chivo', sans-serif;
     }
 
