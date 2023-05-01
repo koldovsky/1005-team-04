@@ -68,7 +68,7 @@
 
 .box-item-link {
     font-family: "Chivo", sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     text-align: center;
     color: var(--accent-color);
     text-decoration: none;
@@ -76,7 +76,7 @@
 
 .packages__button {
     font-family: "Chivo", sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     box-sizing: border-box;
     color: var(--main-color);
     background-color: var(--box-background);
