@@ -55,21 +55,21 @@
 .box-item-name {
     font-family: 'Dosis', sans-serif;
     font-size: 26px;
-    text-align: start;
+    text-align: center;
     color: var(--main-color);
 }
 
 .box-item-text {
     font-family: 'Chivo', sans-serif;
     font-size: 16px;
-    text-align: start;
+    text-align: center;
     color: var(--text-color);
 }
 
 .box-item-link {
     font-family: "Chivo", sans-serif;
     font-size: 11px;
-    text-align: left;
+    text-align: center;
     color: var(--accent-color);
     text-decoration: none;
 }
