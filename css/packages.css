@@ -52,21 +52,21 @@
     height: fit-content;
 }
 
-.box-item-name {
+.box__item-name {
     font-family: 'Dosis', sans-serif;
     font-size: 26px;
     text-align: center;
     color: var(--main-color);
 }
 
-.box-item-text {
+.box__item-text {
     font-family: 'Chivo', sans-serif;
     font-size: 16px;
     text-align: center;
     color: var(--text-color);
 }
 
-.box-item-link {
+.box__item-link {
     font-family: "Chivo", sans-serif;
     font-size: 12px;
     text-align: center;
@@ -93,5 +93,5 @@
 .packages__button-place {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 20px;
 }
