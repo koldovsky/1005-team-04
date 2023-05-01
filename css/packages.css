@@ -1,9 +1,9 @@
 .packages {
     background-image: url(../images/background-packages.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-position: 54% 55%;
 }
 
 .packages__title {
@@ -16,9 +16,28 @@
 
 .packages__box {
     background-color: var(--box-background);
-    max-width: 100%;
-    padding: 20px 40px 20px 40px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 20px;
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    min-height: 570px;
+    max-width: 1330px;
 }
+
+.packages__box-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 15px;
+    height: 260px;
+    background-color: var(--box-background);
+    max-width: 240px;
+}
+
 .packages__title-text {
     font-family: 'Chivo', sans-serif;
     font-size: 20px;
