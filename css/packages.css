@@ -47,12 +47,12 @@
     color: var(--text-color);
 }
 
-.box-item-image {
+.cards-item-image {
     max-width: 500px;
     height: fit-content;
 }
 
-.box__item-name {
+.cards__item-name {
     font-family: 'Dosis', sans-serif;
     font-size: 26px;
     text-align: center;
@@ -61,7 +61,7 @@
     margin-bottom: 10px;
 }
 
-.box__item-text {
+.cards__item-text {
     font-family: 'Chivo', sans-serif;
     font-size: 17px;
     text-align: center;
@@ -69,7 +69,7 @@
     margin-bottom: 20px;
 }
 
-.box__item-link {
+.cards__item-link {
     font-family: "Chivo", sans-serif;
     font-size: 12px;
     text-align: center;
