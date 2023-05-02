@@ -3,7 +3,7 @@
     background-size: cover;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-position: 54% 55%;
+    background-position: 50% 50%;
 }
 
 .packages__title {
@@ -21,7 +21,7 @@
     padding-top: 20px;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 400px;
+    min-height: 500px;
     max-width: 1330px;
 }
 
