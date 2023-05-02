@@ -28,7 +28,7 @@
 .packages__box-item {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 20px;
     margin: 15px;
     background-color: var(--box-background);
     max-width: 340px;
@@ -75,6 +75,7 @@
     text-align: center;
     color: var(--accent-color);
     text-decoration: none;
+    margin-bottom: 10px;
 }
 
 .packages__button {
