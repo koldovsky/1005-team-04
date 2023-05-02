@@ -75,6 +75,7 @@
     text-align: center;
     color: var(--accent-color);
     text-decoration: none;
+    margin-top: auto;
     margin-bottom: 10px;
 }
 
