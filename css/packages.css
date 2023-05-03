@@ -3,7 +3,7 @@
     background-size: cover;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-position: 54% 55%;
+    background-position: 50% 50%;
 }
 
 .packages__title {
@@ -21,18 +21,17 @@
     padding-top: 20px;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
-    min-height: 400px;
-    max-width: 100%;
+    min-height: 600px;
+    max-width: 1330px;
 }
 
 .packages__box-item {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 20px;
     margin: 15px;
     background-color: var(--box-background);
-    max-width: 100%;
+    max-width: 340px;
 }
 
 .packages__title-text {
@@ -48,31 +47,41 @@
     color: var(--text-color);
 }
 
-.box-item-name {
+.cards-item-image {
+    max-width: 500px;
+    height: fit-content;
+}
+
+.cards__item-name {
     font-family: 'Dosis', sans-serif;
     font-size: 26px;
-    text-align: start;
+    text-align: center;
     color: var(--main-color);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.box-item-text {
+.cards__item-text {
     font-family: 'Chivo', sans-serif;
-    font-size: 16px;
-    text-align: start;
+    font-size: 17px;
+    text-align: center;
     color: var(--text-color);
+    margin-bottom: 20px;
 }
 
-.box-item-link {
+.cards__item-link {
     font-family: "Chivo", sans-serif;
-    font-size: 11px;
-    text-align: left;
+    font-size: 12px;
+    text-align: center;
     color: var(--accent-color);
     text-decoration: none;
+    margin-top: auto;
+    margin-bottom: 10px;
 }
 
 .packages__button {
     font-family: "Chivo", sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     box-sizing: border-box;
     color: var(--main-color);
     background-color: var(--box-background);
@@ -82,8 +91,12 @@
     border: solid 1px var(--main-color);
   }
 
+.packages__button:hover {
+    background-color: var(--accent-color);
+}
+
 .packages__button-place {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 20px;
 }
