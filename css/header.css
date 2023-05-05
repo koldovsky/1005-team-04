@@ -18,9 +18,9 @@
 
 .header__title {
     font-family: 'Dosis', sans-serif;
-    font-size: 111px;
+    font-size: 70px;
     color: var(--main-color);
-    padding: 100px 24px 0 20px;
+    padding: 60px 24px 0 20px;
     text-align: center;
     text-transform: none;
     word-wrap: break-word;
@@ -57,7 +57,7 @@
 @media (min-width: 950px) {
     .header__title {
         padding: 200px 0px 20px 0px;
-        font-size: 70px;
+        font-size: 111px;
     }
 
     .header__text {

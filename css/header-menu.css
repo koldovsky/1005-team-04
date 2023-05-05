@@ -10,13 +10,14 @@
 .header__logo-container {
     padding: 20px 50px;
     z-index: 11;
-} 
+    
+}
 
 .logo-container {
     height: 57px;
     width: 187px;
 }
- 
+
 .logo-container.active {
     position: fixed;
     left: 50px;
@@ -92,12 +93,13 @@
     left: -100%;
     list-style: none;
     margin: auto;
-    padding: 40px 0;
+    padding: 30px 0;
     position: relative;
     top: 0;
     transition-duration: .25s;
-    width: 300px;
+    width: 100px;
     visibility: visible;
+    display: none;
 }
 
 .header__menu.active {
@@ -135,7 +137,34 @@
     text-decoration: none;
 }
 
+.header__burger-telephone {
+    padding-bottom: 30px;
+}
+
+.header__telephone {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.header__burger-logo {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.header__logo-menu {
+    height: 30px;
+    width: 30px;
+}
+
 @media (min-width: 950px) {
+
+    .header__telephone,
+    .header__logo-menu {
+        display: none;
+    }
+
     .header__social {
         display: block;
         font-family: 'Chivo', sans-serif;
