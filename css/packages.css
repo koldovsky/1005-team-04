@@ -15,6 +15,7 @@
 }
 
 .packages__box {
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding: 0px 20px;
@@ -22,12 +23,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 600px;
-    max-width: 100%;
+    width: 100%;
 }
 
 .packages__box-item {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     padding: 20px;
     margin: 15px;
     background-color: var(--box-background);
