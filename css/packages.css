@@ -21,7 +21,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 600px;
-    max-width: 1330px;
+    max-width: 100%;
 }
 
 .packages__box-item {
@@ -45,12 +45,13 @@
     margin-top: 25px;
     color: var(--text-color);
 }
-
-@media (min-width: 900px) {
-    .reverse {
-      flex-direction: row-reverse;
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
     }
-  }
+}
+
 .cards-item-image {
     max-width: 500px;
     height: fit-content;
