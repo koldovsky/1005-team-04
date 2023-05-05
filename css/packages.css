@@ -29,7 +29,6 @@
 .packages__box-item {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     padding: 20px;
     margin: 15px;
     background-color: var(--box-background);
