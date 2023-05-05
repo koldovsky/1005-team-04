@@ -78,6 +78,7 @@
     font-family: "Chivo", sans-serif;
     font-size: 12px;
     color: var(--accent-color);
+    text-align: center;
     text-decoration: none;
     margin-top: auto;
     margin-bottom: 10px;
