@@ -77,10 +77,8 @@
 }
 
 .cards__item-link {
-    display: flex;
     font-family: "Chivo", sans-serif;
     font-size: 12px;
-    text-align: center;
     color: var(--accent-color);
     text-decoration: none;
     margin-top: auto;
