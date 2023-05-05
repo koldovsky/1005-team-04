@@ -15,7 +15,6 @@
 }
 
 .packages__box {
-    display: flex;
     justify-content: space-around;
     padding: 0px 20px;
     padding-top: 20px;
@@ -47,6 +46,11 @@
     color: var(--text-color);
 }
 
+@media (min-width: 900px) {
+    .reverse {
+      flex-direction: row-reverse;
+    }
+  }
 .cards-item-image {
     max-width: 500px;
     height: fit-content;
