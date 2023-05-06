@@ -42,13 +42,17 @@
 
 .diving-course {
     display: flex;
+    justify-content: space-between;
     padding: 30px 24px 35px 24px;
-    /* flex-direction: column; */
 }
 
+/* .diving-course__item{
+    margin: 50px 0 0 0;
+} */
 .diving-course-about {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .diving-course-about__title {
@@ -61,7 +65,13 @@
     line-height: 1.56;
 }
 
+.last-item {
+    margin: 0;
+
+}
+
 .diving-course-about__button {
+    flex-basis: content;
     font-family: "Chivo", sans-serif;
     color: var(--main-color);
     font-size: 11px;
@@ -72,8 +82,6 @@
     padding: 12px 24px;
     border-radius: 21px;
     border: solid 1px var(--text-color);
-    width: auto;
-    max-width: 100%;
 }
 
 .diving-course-about__button:hover {
@@ -91,8 +99,17 @@
     .diving-course {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-column-gap: 30px;
+        justify-content: start;
     }
 
+    .diving-course-about {
+        align-content: flex-start;
+    }
+
+    /* .diving-course__item{
+        margin: 50px 0 0 0;
+    } */
     .diving-trip__title,
     .diving-course-about__title {
         font-size: 50px;
