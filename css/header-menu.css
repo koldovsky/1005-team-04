@@ -29,7 +29,7 @@
     align-items: center;
 }
 
-.burger-menu {
+/* .burger-menu {
     align-items: center;
     cursor: pointer;
     display: flex;
@@ -41,7 +41,20 @@
     top: 0;
     width: 26px;
     z-index: 1;
-}
+} */
+
+.burger-menu {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    z-index: 9999;
+  }
 
 .burger-menu span,
 .burger-menu::after,
@@ -87,7 +100,7 @@
     transform: translate(-50%, -50%) rotate(45deg);
 }
 
-.header__menu {
+/* .header__menu {
     height: 100%;
     left: -100%;
     list-style: none;
@@ -98,7 +111,21 @@
     transition-duration: .25s;
     width: 100px;
     visibility: visible;
-}
+} */
+
+.header__menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    list-style: none;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    transition-duration: .25s;
+    padding-top: 80px;
+    z-index: 1;
+  }
 
 .header__menu.active {
     font-size: 14px;
@@ -110,8 +137,8 @@
     height: 100%;
     background-color: var(--menu-background);
     text-align: center;
-}
-
+    display: block;
+} 
 
 .header__menu-item {
     display: block;
@@ -195,15 +222,27 @@
     .header__nav {
         display: grid;
         grid-template-columns: 1fr 1fr; 
-        gap: 450px; 
     }
+
+     /* .header__menu {
+        display: flex;
+        flex-direction: row;
+    }  */
 
     .header__menu {
         display: flex;
-        flex-direction: row;
-    }
-
-    .header__menu-item {
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: initial;
+        left: initial;
+        width: initial;
+        height: initial;
+        background-color: initial;
+        padding-top: initial;
+        z-index: initial;
+      }
+     .header__menu-item {
         display: block;
         color: var(--main-color);
         font-family: 'Chivo', sans-serif;
@@ -211,8 +250,8 @@
         max-width: 100%;
         text-overflow: ellipsis;
         white-space: nowrap;
-    }
-
+    } 
+  
     .header__menu-item:hover {
         color: var(--menu-color);
     }
