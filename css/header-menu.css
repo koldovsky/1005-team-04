@@ -10,7 +10,6 @@
 .header__logo-container {
     padding: 20px 50px;
     z-index: 11;
-    
 }
 
 .logo-container {
@@ -99,7 +98,6 @@
     transition-duration: .25s;
     width: 100px;
     visibility: visible;
-    display: none;
 }
 
 .header__menu.active {
@@ -196,8 +194,8 @@
 
     .header__nav {
         display: grid;
-        grid-template-columns: 3fr 1fr;
-        justify-content: center;
+        grid-template-columns: 1fr 1fr; 
+        gap: 450px; 
     }
 
     .header__menu {
