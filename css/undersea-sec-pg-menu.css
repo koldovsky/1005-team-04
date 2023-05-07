@@ -17,6 +17,7 @@
 .logo-container-sec-pg {
   height: 57px;
   width: 187px;
+  
 }
 
 .logo-container.active-sec-pg {
@@ -140,6 +141,7 @@
   .header__social-sec-pg {
     display: block;
     font-family: "Chivo", sans-serif;
+    background-color: #000e24;
   }
 
   .social__telephone-sec-pg {
