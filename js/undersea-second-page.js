@@ -1,32 +1,25 @@
-var slidePosition = 1;
-SlideShow(slidePosition);
+const burgerMenu = document.querySelector(".burger-menu-sec-pg");
+const headerMenu = document.querySelector(".header__menu-sec-pg");
+const headerLogo = document.querySelector(".logo-container-sec-pg");
 
-// forward/Back controls
-function plusSlides(n) {
-  SlideShow((slidePosition += n));
-}
+burgerMenu.addEventListener("click", () => {
+  burgerMenu.classList.toggle("active");
+  headerMenu.classList.toggle("active");
+  headerLogo.classList.toggle("active");
+});
 
-//  images controls
-function currentSlide(n) {
-  SlideShow((slidePosition = n));
-}
+const menuItems = document.querySelectorAll(".header__menu-item-sec-pg");
+menuItems.forEach((item) => {
+  item.addEventListener("click", () => {
+    burgerMenu.classList.remove("active");
+    headerMenu.classList.remove("active");
+    headerLogo.classList.remove("active");
+  });
+});
 
-function SlideShow(n) {
-  var i;
-  var slides = document.getElementsByClassName("Containers");
-  var circles = document.getElementsByClassName("dots");
-  if (n > slides.length) {
-    slidePosition = 1;
-  }
-  if (n < 1) {
-    slidePosition = slides.length;
-  }
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < circles.length; i++) {
-    circles[i].className = circles[i].className.replace(" enable", "");
-  }
-  slides[slidePosition - 1].style.display = "block";
-  circles[slidePosition - 1].className += " enable";
-}
+const menuItemButton = document.querySelector(".header__menu-item-button-sec-pg");
+menuItemButton.addEventListener("click", () => {
+  burgerMenu.classList.remove("active");
+  headerMenu.classList.remove("active");
+  headerLogo.classList.remove("active");
+});

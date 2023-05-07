@@ -1,0 +1,101 @@
+
+.header-sec-pg {
+  background-image: url(https://res2.weblium.site/res/5d5c0958143eb10026898154/5d7a4a56d45d900024070dd3_optimized_1920.webp);
+  background-size: cover;
+  background-position: 50% 50%;
+  min-height: 850px;
+}
+
+.header__banner-sec-pg {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5px;
+}
+.header__banner-im-sec-pg {
+  width: 70px;
+  height: 67px;
+}
+
+.header__block-text-sec-pg {
+  justify-content: start;
+  margin-left: 50px;
+  padding: 0 15px;
+}
+
+.header__title-sec-pg {
+  font-family: "Dosis", sans-serif;
+  letter-spacing: -1.05px;
+  text-align: left;
+  color: white;
+  font-weight: 100;
+}
+
+.header__text-sec-pg {
+  margin-left: 50px;
+  height: 175;
+  color: #4886ae;
+  font-family: "Chivo", sans-serif;
+  font-size: 20px;
+  text-transform: none;
+}
+
+.header__button-sec-pg {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header__banner-icon-sec-pg {
+  padding-left: 7%;
+}
+
+.header__banner_butto-sec-pg {
+  box-sizing: border-box;
+  background-color: var(--accent-color);
+  border-radius: 2.5em;
+  color: white;
+  font-size: 12px;
+  font-family: "Chivo", sans-serif;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media (min-width: 950px) {
+  .header__title-sec-pg {
+    padding: 0px 0px 0px 50px;
+    /*  font-size: 70px;*/
+  }
+
+  .header__text-sec-pg {
+    /*  padding: 20px;*/
+    text-align: left;
+  }
+
+  .header__banner-sec-pg {
+    /*padding-top: 120px;*/
+
+    margin-left: 3%;
+  }
+
+  .header_button-sec-pg {
+    padding-top: 50px;
+  }
+
+  .header__banner_button-sec-pg {
+    padding: 20px 30px;
+  }
+
+  .header__banner_button-sec-pg:hover {
+    background-color: var(--text-color);
+  }
+  .header__block-text-sec-pg {
+    justify-content: start;
+    margin-left: 50px;
+    padding: 0 15px;
+  }
+}
