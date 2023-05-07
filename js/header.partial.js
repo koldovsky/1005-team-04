@@ -9,16 +9,8 @@ burgerMenu.addEventListener('click', () => {
 });
 
 const menuItems = document.querySelectorAll('.header__menu-item');
-menuItems.forEach(item => {
-  item.addEventListener('click', () => {
-    burgerMenu.classList.remove('active');
-    headerMenu.classList.remove('active');
-    headerLogo.classList.remove('active');
-  });
-});
-
 const menuItemButton = document.querySelectorAll('.header__menu-item-button-top');
-menuItemButton.forEach(item => {
+[...menuItems, ...menuItemButton].forEach(item => {
   item.addEventListener('click', () => {
     burgerMenu.classList.remove('active');
     headerMenu.classList.remove('active');
