@@ -8,7 +8,7 @@ function initMap() {
       },
       activeMarker: '2aceeb6f-623c-41f8-b0d3-6f0f085e8e48',
       disableDefaultUI:true,
-	  allowZoomOnScroll:false,
+	    allowZoomOnScroll:false,
       markers:[{
         position: {lat:7.8473284, lng:98.38230879999992},
         name:'ThaiDive',
