@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .header-sec-pg {
   background-image: url(https://res2.weblium.site/res/5d5c0958143eb10026898154/5d7a4a56d45d900024070dd3_optimized_1920.webp);
   background-size: cover;
@@ -75,9 +80,9 @@
   .header__text-sec-pg {
   
   }*/
-  .header__banner-img-sec-pg{
-    width:67px;
-    height:70px;
+  .header__banner-img-sec-pg {
+    width: 67px;
+    height: 70px;
     margin: autog;
   }
 
