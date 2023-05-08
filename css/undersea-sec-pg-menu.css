@@ -15,9 +15,9 @@
 }
 
 .logo-container-sec-pg {
-  height: 57px;
-  width: 187px;
-  
+  padding-top:20px;
+  height: 47px;
+  width: 157px;
 }
 
 .logo-container.active-sec-pg {
@@ -209,4 +209,11 @@
   .burger-menu-sec-pg {
     display: none;
   }
+
+  .logo-container-sec-pg{
+    margin-left:170px;
+ padding-top:20px;
+ height: 47px;
+ width: 157px;
+ }
 }
