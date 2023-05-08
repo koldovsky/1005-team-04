@@ -4,4 +4,5 @@ document.addEventListener("partialsLoaded",() =>{
     import(`./header.partial.js`);
     import('./courses.js');
     import('./awords-carousel.js');
+    import('./google-map.js');
 });
