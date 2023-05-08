@@ -14,6 +14,7 @@
 .header__banner-im-sec-pg {
   width: 70px;
   height: 67px;
+  margin-left: 67px;
 }
 
 .header__block-text-sec-pg {
@@ -28,6 +29,7 @@
   text-align: left;
   color: white;
   font-weight: 100;
+  margin-left: 50px;
 }
 
 .header__text-sec-pg {
@@ -81,6 +83,7 @@
     /*padding-top: 120px;*/
 
     margin-left: 3%;
+    width: 600px;
   }
 
   .header_button-sec-pg {
