@@ -22,13 +22,6 @@
     flex-direction: column;
     margin-bottom: 10px;
 }
-.element:hover img {
-    transform: scale(1.2);
-}
-.element img {
-    transition: transform 0.5s;
-}
-
 
 @media (max-width: 768px) {
     .awards__container {

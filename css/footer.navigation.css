@@ -47,4 +47,14 @@
 .information-item:hover {
     color:red;
     text-decoration:underline;
+    transform: scale(1.2);
+}
+.information-item {
+    transition: transform 0.5s;
+}
+.container__social-logo:hover {
+    transform: scale(1.2);
+}
+.container__social {
+    transition: transform 0.5s;
 }
