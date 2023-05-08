@@ -11,32 +11,21 @@
     margin: auto;
     width: 70px;
 }
-.awards__container {
-    display: flex;
-    justify-content: center;
-}
-.element {
-    max-width: 400px;
-    max-height: 300px;
-    min-width: 200px;
-    flex-direction: column;
-    margin-bottom: 10px;
-}
-
-@media (max-width: 768px) {
-    .awards__container {
-      flex-direction: column;
-      align-items: center; 
-    }
+.content {
+    margin: auto;
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+  }
+  .slick-slide .image {
+    padding: 10px;
+  }
+  .slick-slide img {
   
-    
-}
-@media (min-width: 768px) and (max-width: 1010px) {
-    .awards__container {
-        flex-wrap: wrap;
-    }
-    .element {
-            flex-basis: calc(50% - 10px); 
-            margin: 5px;
-          }
-    }
+    display: block;
+    width: 100%;
+  }
+  .slick-slide img.slick-loading {
+    border: 0;
+  }
