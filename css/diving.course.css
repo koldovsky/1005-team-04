@@ -43,7 +43,7 @@
 .diving-course {
     display: flex;
     justify-content: space-between;
-    padding: 30px 24px 35px 24px;
+    padding: 32px 24px 70px 24px;
 }
 
 /* .diving-course__item{
@@ -92,7 +92,7 @@
 @media (min-width: 768px) {
     .diving-trip {
         background-image: url(../images/jellyfish-background.webp);
-        background-size: 165%;
+        background-size: cover;
         background-position: 55% 50%;
     }
 
